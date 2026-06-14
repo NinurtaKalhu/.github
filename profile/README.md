@@ -27,7 +27,7 @@ My flagship project for the Elite Dangerous community.
 - In-Game Overlay
 - System Info & Exobiology tracking
 
-Thanks to [@Spansh](https://github.com/spansh) and [EDSM](https://github.com/EDSM-NET) for their cooperation and support. 
+*Thanks to [Spansh](https://github.com/spansh) and [EDSM](https://github.com/EDSM-NET) for their cooperation and support. 
 ---
 
 ## 📊 GitHub Stats
