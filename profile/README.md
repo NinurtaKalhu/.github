@@ -20,13 +20,14 @@ My flagship project for the Elite Dangerous community.
 [![Downloads](https://img.shields.io/github/downloads/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer/total?style=for-the-badge&logo=github&color=0891b2)](https://github.com/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer/releases)
 
 **Features:**
-- Smart Route Optimization with TSP algorithm
-- Neutron Highway Router
-- Galaxy Plotter with Spansh API
+- Smart Route Optimization and Traveling Salesman Problem Solution using the Lin–Kernighan Algorithm.
+- Neutron Highway Router 
+- Galaxy Plotter
 - Custom Route Planner
 - In-Game Overlay
 - System Info & Exobiology tracking
 
+Thanks to [[@Spansh]](https://github.com/spansh) and [EDSM](https://github.com/EDSM-NET) for their cooperation and support. 
 ---
 
 ## 📊 GitHub Stats
