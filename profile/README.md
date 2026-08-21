@@ -62,10 +62,7 @@
 
 ![Workflow](https://github.com/NinurtaKalhu/github-traffic-tracker/actions/workflows/traffic.yml/badge.svg)
 
-| 👁️ Views | 📋 Clones | 📥 Downloads | ⭐ Stars | 🍴 Forks |
-|:---------:|:---------:|:------------:|:--------:|:--------:|
-| 93 | 6 | 602 | 6 | 2 |
-
+<img src="https://raw.githubusercontent.com/NinurtaKalhu/github-traffic-tracker/main/traffic_stats.svg" />
 
 </div>
 
