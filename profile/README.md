@@ -8,7 +8,7 @@
 
 **Developer & Designer** · Paris, France
 
-*"I saw the darkness and was inspired by the light!"*
+*"I saw the darkness and was inspired by the light!"* - Ninurta Kalhu
 
 <!-- SOCIAL -->
 <a href="https://github.com/NinurtaKalhu"><img src="https://img.shields.io/badge/GitHub-10131a?style=for-the-badge&logo=github&logoColor=F68B1D" /></a>
