@@ -4,7 +4,7 @@
 <img width="100%" src="https://raw.githubusercontent.com/NinurtaKalhu/.github/main/profile/github-header-banner.png" />
 
 <!-- CMDR INFO -->
-### CMDR Ninurta Kalhu o7
+### Hi Commander! o7
 
 **Developer & Designer** · Paris, France
 
