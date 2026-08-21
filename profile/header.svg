@@ -1,74 +1,166 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280">
   <defs>
     <!-- Background gradient -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0a0a0a"/>
-      <stop offset="50%" style="stop-color:#10131a"/>
-      <stop offset="100%" style="stop-color:#0a0a0a"/>
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="40%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#050505"/>
     </linearGradient>
-    <!-- Orange glow -->
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#F68B1D;stop-opacity:0.15"/>
-      <stop offset="100%" style="stop-color:#F68B1D;stop-opacity:0"/>
+
+    <!-- Orange glow for text -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Strong glow -->
+    <filter id="glowStrong">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Radial glow center -->
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#F68B1D" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#F68B1D" stop-opacity="0"/>
     </radialGradient>
-    <!-- Scan line pattern -->
+
+    <!-- Hex pattern -->
+    <pattern id="hexPattern" width="30" height="52" patternUnits="userSpaceOnUse" patternTransform="scale(0.6)">
+      <path d="M15 0 L30 13 L30 39 L15 52 L0 39 L0 13 Z" fill="none" stroke="#F68B1D" stroke-opacity="0.04" stroke-width="0.5"/>
+    </pattern>
+
+    <!-- Scan lines -->
     <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
-      <line x1="0" y1="0" x2="4" y2="0" stroke="#F68B1D" stroke-opacity="0.03" stroke-width="1"/>
+      <line x1="0" y1="0" x2="4" y2="0" stroke="#000" stroke-opacity="0.15" stroke-width="1"/>
     </pattern>
-    <!-- Grid pattern -->
+
+    <!-- Grid -->
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F68B1D" stroke-opacity="0.06" stroke-width="0.5"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F68B1D" stroke-opacity="0.03" stroke-width="0.5"/>
     </pattern>
+
+    <!-- Clip for rounded corners -->
+    <clipPath id="rounded">
+      <rect width="900" height="280" rx="8"/>
+    </clipPath>
   </defs>
 
   <!-- Background -->
-  <rect width="800" height="200" fill="url(#bg)"/>
+  <rect width="900" height="280" fill="url(#bg)" clip-path="url(#rounded)"/>
 
-  <!-- Grid overlay -->
-  <rect width="800" height="200" fill="url(#grid)"/>
+  <!-- Hex grid overlay -->
+  <rect width="900" height="280" fill="url(#hexPattern)" clip-path="url(#rounded)"/>
+
+  <!-- Fine grid -->
+  <rect width="900" height="280" fill="url(#grid)" clip-path="url(#rounded)"/>
 
   <!-- Scan lines -->
-  <rect width="800" height="200" fill="url(#scanlines)"/>
+  <rect width="900" height="280" fill="url(#scanlines)" clip-path="url(#rounded)"/>
 
   <!-- Center glow -->
-  <ellipse cx="400" cy="100" rx="300" ry="100" fill="url(#glow)"/>
+  <ellipse cx="450" cy="140" rx="350" ry="140" fill="url(#centerGlow)"/>
 
-  <!-- Top border line -->
-  <line x1="50" y1="30" x2="750" y2="30" stroke="#F68B1D" stroke-opacity="0.3" stroke-width="1"/>
+  <!-- Stars -->
+  <circle cx="120" cy="45" r="1" fill="#F68B1D" opacity="0.3"/>
+  <circle cx="250" cy="30" r="0.8" fill="#F68B1D" opacity="0.2"/>
+  <circle cx="380" cy="55" r="1.2" fill="#F68B1D" opacity="0.25"/>
+  <circle cx="520" cy="25" r="0.7" fill="#F68B1D" opacity="0.35"/>
+  <circle cx="650" cy="50" r="1" fill="#F68B1D" opacity="0.2"/>
+  <circle cx="780" cy="35" r="0.9" fill="#F68B1D" opacity="0.3"/>
+  <circle cx="180" cy="240" r="0.8" fill="#F68B1D" opacity="0.25"/>
+  <circle cx="320" cy="255" r="1.1" fill="#F68B1D" opacity="0.2"/>
+  <circle cx="580" cy="245" r="0.7" fill="#F68B1D" opacity="0.3"/>
+  <circle cx="720" cy="250" r="1" fill="#F68B1D" opacity="0.2"/>
+  <circle cx="850" cy="235" r="0.9" fill="#F68B1D" opacity="0.25"/>
+  <circle cx="90" cy="150" r="0.6" fill="#F68B1D" opacity="0.15"/>
+  <circle cx="810" cy="160" r="0.6" fill="#F68B1D" opacity="0.15"/>
 
-  <!-- Bottom border line -->
-  <line x1="50" y1="170" x2="750" y2="170" stroke="#F68B1D" stroke-opacity="0.3" stroke-width="1"/>
+  <!-- Outer frame - top -->
+  <line x1="40" y1="20" x2="860" y2="20" stroke="#F68B1D" stroke-opacity="0.15" stroke-width="0.5"/>
+  <!-- Outer frame - bottom -->
+  <line x1="40" y1="260" x2="860" y2="260" stroke="#F68B1D" stroke-opacity="0.15" stroke-width="0.5"/>
 
-  <!-- Left bracket -->
-  <path d="M 60 40 L 60 160" stroke="#F68B1D" stroke-opacity="0.4" stroke-width="1.5"/>
-  <path d="M 60 40 L 80 40" stroke="#F68B1D" stroke-opacity="0.4" stroke-width="1.5"/>
-  <path d="M 60 160 L 80 160" stroke="#F68B1D" stroke-opacity="0.4" stroke-width="1.5"/>
+  <!-- Corner brackets - top left -->
+  <path d="M 30 50 L 30 30 L 50 30" fill="none" stroke="#F68B1D" stroke-opacity="0.5" stroke-width="1.5"/>
+  <path d="M 32 50 L 32 32 L 50 32" fill="none" stroke="#F68B1D" stroke-opacity="0.2" stroke-width="0.5"/>
+  <circle cx="30" cy="30" r="2.5" fill="#F68B1D" opacity="0.7"/>
 
-  <!-- Right bracket -->
-  <path d="M 740 40 L 740 160" stroke="#F68B1D" stroke-opacity="0.4" stroke-width="1.5"/>
-  <path d="M 740 40 L 720 40" stroke="#F68B1D" stroke-opacity="0.4" stroke-width="1.5"/>
-  <path d="M 740 160 L 720 160" stroke="#F68B1D" stroke-opacity="0.4" stroke-width="1.5"/>
+  <!-- Corner brackets - top right -->
+  <path d="M 870 50 L 870 30 L 850 30" fill="none" stroke="#F68B1D" stroke-opacity="0.5" stroke-width="1.5"/>
+  <path d="M 868 50 L 868 32 L 850 32" fill="none" stroke="#F68B1D" stroke-opacity="0.2" stroke-width="0.5"/>
+  <circle cx="870" cy="30" r="2.5" fill="#F68B1D" opacity="0.7"/>
 
-  <!-- Center diamond -->
-  <path d="M 400 50 L 420 70 L 400 90 L 380 70 Z" fill="none" stroke="#F68B1D" stroke-opacity="0.5" stroke-width="1"/>
-  <path d="M 400 110 L 420 130 L 400 150 L 380 130 Z" fill="none" stroke="#F68B1D" stroke-opacity="0.5" stroke-width="1"/>
+  <!-- Corner brackets - bottom left -->
+  <path d="M 30 230 L 30 250 L 50 250" fill="none" stroke="#F68B1D" stroke-opacity="0.5" stroke-width="1.5"/>
+  <path d="M 32 228 L 32 248 L 50 248" fill="none" stroke="#F68B1D" stroke-opacity="0.2" stroke-width="0.5"/>
+  <circle cx="30" cy="250" r="2.5" fill="#F68B1D" opacity="0.7"/>
 
-  <!-- EDMRN text -->
-  <text x="400" y="88" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="700" fill="#F68B1D" letter-spacing="8">EDMRN</text>
+  <!-- Corner brackets - bottom right -->
+  <path d="M 870 230 L 870 250 L 850 250" fill="none" stroke="#F68B1D" stroke-opacity="0.5" stroke-width="1.5"/>
+  <path d="M 868 228 L 868 248 L 850 248" fill="none" stroke="#F68B1D" stroke-opacity="0.2" stroke-width="0.5"/>
+  <circle cx="870" cy="250" r="2.5" fill="#F68B1D" opacity="0.7"/>
+
+  <!-- Left panel lines -->
+  <line x1="60" y1="70" x2="60" y2="210" stroke="#F68B1D" stroke-opacity="0.12" stroke-width="0.5"/>
+  <line x1="80" y1="80" x2="80" y2="200" stroke="#F68B1D" stroke-opacity="0.08" stroke-width="0.5"/>
+
+  <!-- Right panel lines -->
+  <line x1="840" y1="70" x2="840" y2="210" stroke="#F68B1D" stroke-opacity="0.12" stroke-width="0.5"/>
+  <line x1="820" y1="80" x2="820" y2="200" stroke="#F68B1D" stroke-opacity="0.08" stroke-width="0.5"/>
+
+  <!-- Left data readout -->
+  <text x="70" y="95" font-family="'Consolas', 'SF Mono', monospace" font-size="8" fill="#F68B1D" opacity="0.3">SYS</text>
+  <text x="70" y="107" font-family="'Consolas', 'SF Mono', monospace" font-size="8" fill="#F68B1D" opacity="0.2">NAV</text>
+  <text x="70" y="119" font-family="'Consolas', 'SF Mono', monospace" font-size="8" fill="#F68B1D" opacity="0.3">COM</text>
+
+  <!-- Right data readout -->
+  <text x="825" y="95" font-family="'Consolas', 'SF Mono', monospace" font-size="8" fill="#F68B1D" opacity="0.3">SRV</text>
+  <text x="825" y="107" font-family="'Consolas', 'SF Mono', monospace" font-size="8" fill="#F68B1D" opacity="0.2">GAL</text>
+  <text x="825" y="119" font-family="'Consolas', 'SF Mono', monospace" font-size="8" fill="#F68B1D" opacity="0.3">MAP</text>
+
+  <!-- Horizontal divider top -->
+  <line x1="100" y1="60" x2="350" y2="60" stroke="#F68B1D" stroke-opacity="0.1" stroke-width="0.5"/>
+  <line x1="550" y1="60" x2="800" y2="60" stroke="#F68B1D" stroke-opacity="0.1" stroke-width="0.5"/>
+
+  <!-- Horizontal divider bottom -->
+  <line x1="100" y1="220" x2="350" y2="220" stroke="#F68B1D" stroke-opacity="0.1" stroke-width="0.5"/>
+  <line x1="550" y1="220" x2="800" y2="220" stroke="#F68B1D" stroke-opacity="0.1" stroke-width="0.5"/>
+
+  <!-- Center crosshair -->
+  <line x1="430" y1="130" x2="470" y2="130" stroke="#F68B1D" stroke-opacity="0.15" stroke-width="0.5"/>
+  <line x1="450" y1="110" x2="450" y2="150" stroke="#F68B1D" stroke-opacity="0.15" stroke-width="0.5"/>
+
+  <!-- Diamond accents -->
+  <path d="M 450 70 L 458 78 L 450 86 L 442 78 Z" fill="none" stroke="#F68B1D" stroke-opacity="0.3" stroke-width="0.8"/>
+  <path d="M 450 194 L 458 202 L 450 210 L 442 202 Z" fill="none" stroke="#F68B1D" stroke-opacity="0.3" stroke-width="0.8"/>
+
+  <!-- EDMRN main text with glow -->
+  <text x="450" y="148" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="800" fill="#F68B1D" letter-spacing="12" filter="url(#glow)">EDMRN</text>
 
   <!-- Subtitle -->
-  <text x="400" y="118" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#F68B1D" opacity="0.7" letter-spacing="4">ELITE DANGEROUS MULTI-ROUTE NAVIGATION</text>
+  <text x="450" y="175" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#F68B1D" opacity="0.6" letter-spacing="6" font-weight="300">ELITE DANGEROUS MULTI-ROUTE NAVIGATION</text>
 
-  <!-- Version -->
-  <text x="400" y="145" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#F68B1D" opacity="0.4" letter-spacing="2">v3.3.0</text>
+  <!-- Version badge -->
+  <rect x="420" y="185" width="60" height="18" rx="9" fill="none" stroke="#F68B1D" stroke-opacity="0.3" stroke-width="0.8"/>
+  <text x="450" y="198" text-anchor="middle" font-family="'Consolas', 'SF Mono', monospace" font-size="9" fill="#F68B1D" opacity="0.5" letter-spacing="1">v3.3.0</text>
 
-  <!-- Corner accents -->
-  <circle cx="60" cy="40" r="2" fill="#F68B1D" opacity="0.6"/>
-  <circle cx="60" cy="160" r="2" fill="#F68B1D" opacity="0.6"/>
-  <circle cx="740" cy="40" r="2" fill="#F68B1D" opacity="0.6"/>
-  <circle cx="740" cy="160" r="2" fill="#F68B1D" opacity="0.6"/>
+  <!-- Status indicators - left -->
+  <circle cx="100" cy="140" r="3" fill="#F68B1D" opacity="0.4"/>
+  <circle cx="100" cy="140" r="6" fill="none" stroke="#F68B1D" stroke-opacity="0.15" stroke-width="0.5"/>
+  <text x="112" y="143" font-family="'Consolas', 'SF Mono', monospace" font-size="8" fill="#F68B1D" opacity="0.3">ONLINE</text>
 
-  <!-- Horizontal scan line -->
-  <line x1="100" y1="100" x2="300" y2="100" stroke="#F68B1D" stroke-opacity="0.15" stroke-width="0.5"/>
-  <line x1="500" y1="100" x2="700" y2="100" stroke="#F68B1D" stroke-opacity="0.15" stroke-width="0.5"/>
+  <!-- Status indicators - right -->
+  <circle cx="800" cy="140" r="3" fill="#F68B1D" opacity="0.4"/>
+  <circle cx="800" cy="140" r="6" fill="none" stroke="#F68B1D" stroke-opacity="0.15" stroke-width="0.5"/>
+  <text x="770" y="143" text-anchor="end" font-family="'Consolas', 'SF Mono', monospace" font-size="8" fill="#F68B1D" opacity="0.3">ACTIVE</text>
+
+  <!-- Bottom center text -->
+  <text x="450" y="245" text-anchor="middle" font-family="'Consolas', 'SF Mono', monospace" font-size="8" fill="#F68B1D" opacity="0.2" letter-spacing="2">FRONTIER DEVELOPMENTS · EDCD COMMUNITY</text>
 </svg>
