@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ELITE DANGEROUS HUD HEADER -->
-<img width="100%" src="https://raw.githubusercontent.com/NinurtaKalhu/.github/main/profile/header.svg?v=95a5c2e" />
+<img width="100%" src="https://raw.githubusercontent.com/NinurtaKalhu/.github/main/profile/github-header-banner.png" />
 
 <!-- CMDR INFO -->
 ### CMDR Ninurta Kalhu o7
