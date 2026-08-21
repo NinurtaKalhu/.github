@@ -48,7 +48,7 @@
 | **04** | Custom Routes | Manual waypoint planning with 3D visualization |
 | **05** | In-Game Overlay | Real-time HUD overlay (Ctrl+O) |
 | **06** | Fuel Tracker | Real-time fuel monitoring with audio alerts |
-| **07** | Exobiology | System info & biological signal tracking |
+| **07** | Exobiology | System info |
 | **08** | 11 Faction Themes | PowerPlay-inspired color schemes |
 
 > Built with cooperation from [Spansh](https://github.com/spansh), [EDSM](https://github.com/EDSM-NET), and [EDAstro](https://edastro.com).
