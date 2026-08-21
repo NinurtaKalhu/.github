@@ -76,6 +76,4 @@
 
 *Fly safe, Commander! o7*
 
-*Data collected by [github-traffic-tracker](https://github.com/NinurtaKalhu/github-traffic-tracker)*
-
 </div>
