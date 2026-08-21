@@ -6,7 +6,7 @@
 <!-- CMDR INFO -->
 ### CMDR Ninurta Kalhu o7
 
-**Developer & Designer** · Paris, France · *EDCD*
+**Developer & Designer** · Paris, France
 
 *"I saw the darkness and was inspired by the light!"*
 
