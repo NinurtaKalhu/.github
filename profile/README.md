@@ -1,59 +1,81 @@
-# Hi, My name is Sercan C. (Ninurta Kalhu)
+<div align="center">
 
-## Developer & Designer
+<!-- ELITE DANGEROUS HUD HEADER -->
+<img width="100%" src="https://raw.githubusercontent.com/NinurtaKalhu/.github/main/profile/header.svg" />
 
-I'm developing EDMRN entirely in my own time, driven by my passion for Elite Dangerous and its amazing community. My goal is to provide a fast, reliable, and enjoyable route tool for all explorers and travelers across the galaxy.
+<!-- CMDR INFO -->
+### CMDR Ninurta Kalhu o7
 
-- 🌍 I'm based in Paris, FRANCE
-- ✉️ You can contact me at [ninurtakalhu@gmail.com](mailto:ninurtakalhu@gmail.com)
+**Developer & Designer** · Paris, France · *EDCD*
 
-<p align="left"> <a href="https://www.github.com/NinurtaKalhu" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" title="GitHub" /> </picture> </a> <a href="https://www.x.com/NinurtaKalhu" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" alt="Twitter" title="Twitter" /> </picture> </a> <a href="https://www.twitch.tv/NinurtaKalhu" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitch-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitch.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitch.svg" width="32" height="32" alt="Twitch" title="Twitch" /> </picture> </a> <a href="https://www.youtube.com/@NinurtaKalhu" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" width="32" height="32" alt="YouTube" title="YouTube" /> </picture> </a> <a href="https://discord.com/users/1432750545025630310" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" alt="Discord" title="Discord" /> </picture> </a></p>
+*"I saw the darkness and was inspired by the light!"*
 
----
+<!-- SOCIAL -->
+<a href="https://github.com/NinurtaKalhu"><img src="https://img.shields.io/badge/GitHub-10131a?style=for-the-badge&logo=github&logoColor=F68B1D" /></a>
+<a href="https://x.com/NinurtaKalhu"><img src="https://img.shields.io/badge/X-10131a?style=for-the-badge&logo=x&logoColor=F68B1D" /></a>
+<a href="https://twitch.tv/NinurtaKalhu"><img src="https://img.shields.io/badge/Twitch-10131a?style=for-the-badge&logo=twitch&logoColor=F68B1D" /></a>
+<a href="https://youtube.com/@NinurtaKalhu"><img src="https://img.shields.io/badge/YouTube-10131a?style=for-the-badge&logo=youtube&logoColor=F68B1D" /></a>
+<a href="https://discord.gg/DWvCEXH7ae"><img src="https://img.shields.io/badge/Discord-10131a?style=for-the-badge&logo=discord&logoColor=F68B1D" /></a>
+<a href="https://ko-fi.com/ninurtakalhu"><img src="https://img.shields.io/badge/Support-10131a?style=for-the-badge&logo=ko-fi&logoColor=F68B1D" /></a>
 
-## 🚀 EDMRN - Elite Dangerous Multi-Route Navigation
-
-My flagship project for the Elite Dangerous community.
-
-[![GitHub Stars](https://img.shields.io/github/stars/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer?style=for-the-badge&logo=github&color=0891b2)](https://github.com/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer?style=for-the-badge&logo=github&color=0891b2)](https://github.com/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer/network/members)
-[![Downloads](https://img.shields.io/github/downloads/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer/total?style=for-the-badge&logo=github&color=0891b2)](https://github.com/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer/releases)
-
-**Features:**
-- Smart Route Optimization and Traveling Salesman Problem Solution using the Lin–Kernighan Algorithm.
-- Neutron Highway Router 
-- Galaxy Plotter
-- Custom Route Planner
-- In-Game Overlay
-- System Info & Exobiology tracking
-
-*Thanks to [Spansh](https://github.com/spansh) and [EDSM](https://github.com/EDSM-NET) for their cooperation and support. 
----
-
-## 📈 EDMRN Traffic
-
-[![Traffic Tracker](https://github.com/NinurtaKalhu/github-traffic-tracker/actions/workflows/traffic.yml/badge.svg)](https://github.com/NinurtaKalhu/github-traffic-tracker/actions/workflows/traffic.yml)
-
-| Metric | Count |
-|--------|-------|
-| ⭐ Stars | ![Stars](https://img.shields.io/github/stars/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer?style=social) |
-| 🍴 Forks | ![Forks](https://img.shields.io/github/forks/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer?style=social) |
-| 📥 Downloads | ![Downloads](https://img.shields.io/github/downloads/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer/total?style=social) |
+</div>
 
 ---
 
-## 🎮 Elite Dangerous
+<!-- EDMRN PROJECT -->
+<div align="center">
 
-CMDR Ninurta Kalhu |
+## EDMRN
 
-[![Followers](https://img.shields.io/github/followers/NinurtaKalhu?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917)](https://github.com/NinurtaKalhu)
+### Elite Dangerous Multi-Route Navigation
+
+[![Stars](https://img.shields.io/github/stars/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer?style=flat-square&color=F68B1D&labelColor=10131a)](https://github.com/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer/stargazers)
+[![Forks](https://img.shields.io/github/forks/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer?style=flat-square&color=F68B1D&labelColor=10131a)](https://github.com/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer/network/members)
+[![Downloads](https://img.shields.io/github/downloads/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer/total?style=flat-square&color=F68B1D&labelColor=10131a)](https://github.com/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer/releases)
+[![Release](https://img.shields.io/github/v/release/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer?style=flat-square&color=F68B1D&labelColor=10131a)](https://github.com/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer/releases)
+[![License](https://img.shields.io/github/license/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer?style=flat-square&color=F68B1D&labelColor=10131a)](https://github.com/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer/blob/main/LICENSE)
+
+</div>
+
+> *The ultimate multi-route optimization & tracking tool for Elite Dangerous.*
+> *Completely modular architecture with 11 PowerPlay faction themes, advanced route planning, and real-time tracking.*
+
+| | Feature | |
+|---|---|---|
+| **01** | Route Optimizer | TSP solution using Lin-Kernighan algorithm |
+| **02** | Neutron Highway | Fast travel via neutron star boosting |
+| **03** | Galaxy Plotter | Long-range routing via Spansh API |
+| **04** | Custom Routes | Manual waypoint planning with 3D visualization |
+| **05** | In-Game Overlay | Real-time HUD overlay (Ctrl+O) |
+| **06** | Fuel Tracker | Real-time fuel monitoring with audio alerts |
+| **07** | Exobiology | System info & biological signal tracking |
+| **08** | 11 Faction Themes | PowerPlay-inspired color schemes |
+
+> Built with cooperation from [Spansh](https://github.com/spansh), [EDSM](https://github.com/EDSM-NET), and [EDAstro](https://edastro.com).
 
 ---
 
-## ☕ Support
+<!-- TRAFFIC -->
+<div align="center">
 
-<ul style="list-style-type: none; margin: 0;">
+## Traffic
 
-<li style="display: inline-block; margin-right: 0.25rem;"><a href="https://www.ko-fi.com/ninurtakalhu"><img src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" width="150"/></a></li>
+![Workflow](https://github.com/NinurtaKalhu/github-traffic-tracker/actions/workflows/traffic.yml/badge.svg)
 
-</ul>
+| 👁️ Views | 📋 Clones | 📥 Downloads | ⭐ Stars | 🍴 Forks |
+|:---------:|:---------:|:------------:|:--------:|:--------:|
+| 93 | 6 | 602 | 6 | 2 |
+
+*68 days tracked · Last updated 2026-08-21*
+
+</div>
+
+---
+
+<div align="center">
+
+*Fly safe, Commander! o7*
+
+*Data collected by [github-traffic-tracker](https://github.com/NinurtaKalhu/github-traffic-tracker)*
+
+</div>
