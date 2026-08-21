@@ -55,19 +55,6 @@
 
 ---
 
-<!-- TRAFFIC -->
-<div align="center">
-
-## Traffic
-
-![Workflow](https://github.com/NinurtaKalhu/github-traffic-tracker/actions/workflows/traffic.yml/badge.svg)
-
-<img src="https://raw.githubusercontent.com/NinurtaKalhu/github-traffic-tracker/main/traffic_stats.svg" />
-
-</div>
-
----
-
 <div align="center">
 
 *Fly safe, Commander! o7*
