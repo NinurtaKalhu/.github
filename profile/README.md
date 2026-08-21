@@ -1,5 +1,8 @@
 <div align="center">
 
+<!-- EDMRN LOGO -->
+<img src="https://raw.githubusercontent.com/NinurtaKalhu/Elite-Dangerous-Multi-Route-Optimizer/main/assets/edmrn_logo.png" width="100" />
+
 <!-- ELITE DANGEROUS HUD HEADER -->
 <img width="100%" src="https://raw.githubusercontent.com/NinurtaKalhu/.github/main/profile/header.svg?v=5829875" />
 
